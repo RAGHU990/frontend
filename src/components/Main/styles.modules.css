@@ -1,27 +1,106 @@
-.navbar {
+.profile_container {
 	width: 100%;
-	height: 70px;
-	background-color: #3bb19b;
+	min-height: 100vh;
+	background-color: #f5f5f5;
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
-}
-
-.navbar h1 {
+	justify-content: center;
+  }
+  
+  .profile_form_container {
+	width: 900px;
+	height: 500px;
+	display: flex;
+	border-radius: 10px;
+	box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 20%), 0px 3px 4px 0px rgb(0 0 0 / 14%), 0px 1px 8px 0px rgb(0 0 0 / 12%);
+  }
+  
+  .profile_left {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: #3bb19b;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+  }
+  
+  .profile_left h1 {
+	margin-top: 0;
 	color: white;
-	font-size: 25px;
-	margin-left: 20px;
-}
-
-.white_btn {
+	font-size: 35px;
+	align-self: center;
+  }
+  
+  .profile_right {
+	flex: 2;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: white;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+  }
+  
+  .profile_form_container form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  }
+  
+  .profile_form_container form label {
+	font-size: 20px;
+	margin-bottom: 10px;
+  }
+  
+  .profile_form_container form input,
+  .profile_form_container form select {
+	outline: none;
+	border: none;
+	width: 370px;
+	padding: 15px;
+	border-radius: 10px;
+	background-color: #edf5f3;
+	margin: 5px 0;
+	font-size: 14px;
+  }
+  
+  .profile_form_container form select {
+	width: 390px;
+  }
+  
+  .profile_form_container form button {
 	border: none;
 	outline: none;
 	padding: 12px 0;
-	background-color: white;
+	background-color: #3bb19b;
+	color: white;
 	border-radius: 20px;
-	width: 120px;
+	width: 180px;
 	font-weight: bold;
 	font-size: 14px;
 	cursor: pointer;
-	margin-right: 20px;
-}
+	margin-top: 20px;
+  }
+  
+  .profile_form_container p {
+	font-size: 20px;
+	margin-bottom: 10px;
+  }
+  
+  .profile_form_container button {
+	border: none;
+	outline: none;
+	padding: 12px 0;
+	background-color: #3bb19b;
+	color: white;
+	border-radius: 20px;
+	width: 180px;
+	font-weight: bold;
+	font-size: 14px;
+	cursor: pointer;
+	margin-top: 20px;
+  }
+  
