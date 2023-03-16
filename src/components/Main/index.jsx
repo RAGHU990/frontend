@@ -94,7 +94,7 @@ const Main = () => {
                 onChange={(e) => setUser({ ...user, mobile: e.target.value })}
               />
             </label>
-            <button type="submit">Save</button>
+            <button type="submit">Save it</button>
           </form>
         ) : (
           <div className={styles.profile_data}>
